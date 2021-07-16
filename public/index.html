@@ -5,12 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link src="style.css" type="text/css" />
+    <link href="style.css" rel="stylesheet" />
     <title>Tailwind CSS</title>
 </head>
 
 <body>
-    <h1>Tailwind CSS Demo</h1>
+    <div class="h-screen grid place-items-center">
+        <h1 class="uppercase text-center font-bold">Tailwind CSS Demo</h1>
+        <figure class="bg-gray-100 rounded-xl p-8">
+            <img class="w-32 h-32 roun" src="/sarah-dayan.jpg" alt="" width="384" height="512">
+            <div class="pt-6 space-y-4">
+                <blockquote>
+                    <p class="text-lg">
+                        “Tailwind CSS is the only framework that I've seen scale
+                        on large teams. It’s easy to customize, adapts to any design,
+                        and the build size is tiny.”
+                    </p>
+                </blockquote>
+                <figcaption>
+                    <div>
+                        Sarah Dayan
+                    </div>
+                    <div>
+                        Staff Engineer, Algolia
+                    </div>
+                </figcaption>
+            </div>
+        </figure>
+    </div>
 </body>
 
 </html>
